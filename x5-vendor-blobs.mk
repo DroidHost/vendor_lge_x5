@@ -61,6 +61,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/x5/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/lge/x5/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+    vendor/lge/x5/proprietary/lib/libemoji.so:system/lib/libemoji.so \
     vendor/lge/x5/proprietary/lib/hw/audio.primary.msm8226.so:system/lib/hw/audio.primary.msm8226.so \
     vendor/lge/x5/proprietary/lib/hw/sensors.msm8930.so:system/lib/hw/sensors.msm8930.so \
     vendor/lge/x5/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
