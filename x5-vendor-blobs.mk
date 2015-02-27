@@ -225,8 +225,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/x5/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/lge/x5/proprietary/vendor/lib/hw/power.msm8226.so:system/vendor/lib/hw/power.msm8226.so \
-    vendor/lge/x5/proprietary/vendor/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-    vendor/lge/x5/proprietary/vendor/lib/hw/keystore.msm8226.so:system/lib/hw/keystore.msm8226.so \
+    vendor/lge/x5/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+    vendor/lge/x5/proprietary/lib/hw/keystore.msm8226.so:system/lib/hw/keystore.msm8226.so \
     vendor/lge/x5/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/x5/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/x5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
