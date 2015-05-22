@@ -230,7 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/x5/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/x5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/x5/proprietary/lib/hw/lights.msm8226.so:system/lib/hw/lights.msm8226.so \
     vendor/lge/x5/proprietary/vendor/lib/libbmc050.so:system/vendor/lib/libbmc050.so \
     vendor/lge/x5/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/x5/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
