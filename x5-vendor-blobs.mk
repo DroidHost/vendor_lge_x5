@@ -26,6 +26,13 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/etc/keymaster/keymaster.mdt:system/etc/firmware/keymaster.mdt \
     vendor/lge/x5/proprietary/etc/keymaster/keymaster.b01:system/etc/firmware/keymaster.b01 \
     vendor/lge/x5/proprietary/etc/keymaster/keymaster.b03:system/etc/firmware/keymaster.b03 \
+    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/lge/x5/proprietary/etc/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
+    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/lge/x5/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
+    vendor/lge/x5/proprietary/lib/hw/keystore.msm8226.so:system/lib/hw/keystore.msm8226.so \
     vendor/lge/x5/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
     vendor/lge/x5/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
     vendor/lge/x5/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
@@ -62,8 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/lge/x5/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     vendor/lge/x5/proprietary/lib/libemoji.so:system/lib/libemoji.so \
-    vendor/lge/x5/proprietary/lib/hw/audio.primary.msm8226.so:system/lib/hw/audio.primary.msm8226.so \
-    vendor/lge/x5/proprietary/lib/hw/sensors.msm8930.so:system/lib/hw/sensors.msm8930.so \
     vendor/lge/x5/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/lge/x5/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/lge/x5/proprietary/bin/qrngd:system/bin/qrngd \
@@ -225,8 +230,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/lge/x5/proprietary/vendor/lib/hw/sensors.msm8226.so:system/vendor/lib/hw/sensors.msm8226.so \
     vendor/lge/x5/proprietary/vendor/lib/hw/power.msm8226.so:system/vendor/lib/hw/power.msm8226.so \
-    vendor/lge/x5/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-    vendor/lge/x5/proprietary/lib/hw/keystore.msm8226.so:system/lib/hw/keystore.msm8226.so \
     vendor/lge/x5/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/lge/x5/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/x5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
