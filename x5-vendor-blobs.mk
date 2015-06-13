@@ -31,8 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/etc/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/lge/x5/proprietary/etc/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/lge/x5/proprietary/etc/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/lge/x5/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
-    vendor/lge/x5/proprietary/lib/hw/keystore.msm8226.so:system/lib/hw/keystore.msm8226.so \
     vendor/lge/x5/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
     vendor/lge/x5/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
     vendor/lge/x5/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
