@@ -21,35 +21,31 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/x5/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lge/x5/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b00:system/etc/firmware/keymaster.b00 \
-    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b02:system/etc/firmware/keymaster.b02 \
-    vendor/lge/x5/proprietary/etc/keymaster/keymaster.mdt:system/etc/firmware/keymaster.mdt \
-    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b01:system/etc/firmware/keymaster.b01 \
-    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b03:system/etc/firmware/keymaster.b03 \
-    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
-    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
-    vendor/lge/x5/proprietary/etc/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
-    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
-    vendor/lge/x5/proprietary/etc/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
-    vendor/lge/x5/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
-    vendor/lge/x5/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
-    vendor/lge/x5/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
-    vendor/lge/x5/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
-    vendor/lge/x5/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
-    vendor/lge/x5/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
-    vendor/lge/x5/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
-    vendor/lge/x5/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/lge/x5/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/lge/x5/proprietary/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
+    vendor/lge/x5/proprietary/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
+    vendor/lge/x5/proprietary/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
+    vendor/lge/x5/proprietary/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
+    vendor/lge/x5/proprietary/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/lge/x5/proprietary/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/lge/x5/proprietary/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
+    vendor/lge/x5/proprietary/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
+    vendor/lge/x5/proprietary/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/lge/x5/proprietary/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/lge/x5/proprietary/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/lge/x5/proprietary/firmware/keymaster.b00:system/etc/firmware/keymaster.b00 \
+    vendor/lge/x5/proprietary/firmware/keymaster.b01:system/etc/firmware/keymaster.b01 \
+    vendor/lge/x5/proprietary/firmware/keymaster.b02:system/etc/firmware/keymaster.b02 \
+    vendor/lge/x5/proprietary/firmware/keymaster.b03:system/etc/firmware/keymaster.b03 \
+    vendor/lge/x5/proprietary/firmware/keymaster.mdt:system/etc/firmware/keymaster.mdt \
+    vendor/lge/x5/proprietary/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
+    vendor/lge/x5/proprietary/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
+    vendor/lge/x5/proprietary/firmware/venus.b00:system/etc/firmware/venus.b00 \
+    vendor/lge/x5/proprietary/firmware/venus.b01:system/etc/firmware/venus.b01 \
+    vendor/lge/x5/proprietary/firmware/venus.b02:system/etc/firmware/venus.b02 \
+    vendor/lge/x5/proprietary/firmware/venus.b03:system/etc/firmware/venus.b03 \
+    vendor/lge/x5/proprietary/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/lge/x5/proprietary/firmware/venus.mbn:system/etc/firmware/venus.mbn \
+    vendor/lge/x5/proprietary/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/lge/x5/proprietary/etc/ACDB/Bluetooth_cal.acdb:system/etc/ACDB/Bluetooth_cal.acdb \
     vendor/lge/x5/proprietary/etc/ACDB/General_cal.acdb:system/etc/ACDB/General_cal.acdb \
     vendor/lge/x5/proprietary/etc/ACDB/Global_cal.acdb:system/etc/ACDB/Global_cal.acdb \
@@ -232,7 +228,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
     vendor/lge/x5/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/lge/x5/proprietary/vendor/lib/libbmc050.so:system/vendor/lib/libbmc050.so \
-    vendor/lge/x5/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/x5/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/lge/x5/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/x5/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
