@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/vendor/firmware/keymaster/keymaster.b01:system/etc/firmware/keymaster/keymaster.b01 \
     vendor/lge/x5/proprietary/vendor/firmware/keymaster/keymaster.b03:system/etc/firmware/keymaster/keymaster.b03 \
     vendor/lge/x5/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
+    vendor/lge/x5/proprietary/lib/hw/nfc_lg.default.so:system/lib/hw/nfc_lg.default.so \
     vendor/lge/x5/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/lge/x5/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/lge/x5/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
@@ -40,12 +41,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/lge/x5/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/lge/x5/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/lge/x5/proprietary/etc/firmware/cpp_firmware_v1_2_1.fw:system/etc/firmware/cpp_firmware_v1_2_1.fw \
-    vendor/lge/x5/proprietary/etc/firmware/Signedrompatch_v20.bin:system/etc/firmware/Signedrompatch_v20.bin \
-    vendor/lge/x5/proprietary/etc/firmware/Signedrompatch_v21.bin:system/etc/firmware/Signedrompatch_v21.bin \
-    vendor/lge/x5/proprietary/etc/firmware/Signedrompatch_v24.bin:system/etc/firmware/Signedrompatch_v24.bin \
-    vendor/lge/x5/proprietary/etc/firmware/Signedrompatch_v30.bin:system/etc/firmware/Signedrompatch_v30.bin \
-    vendor/lge/x5/proprietary/etc/firmware/nfc_test.bin:system/etc/firmware/nfc_test.bin \
     vendor/lge/x5/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/lge/x5/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/lge/x5/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
