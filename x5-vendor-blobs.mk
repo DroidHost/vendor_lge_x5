@@ -32,6 +32,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/x5/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
     vendor/lge/x5/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/lge/x5/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
+    vendor/lge/x5/proprietary/etc/firmware/dxhdcp2.b00:system/etc/firmware/dxhdcp2.b00 \
+    vendor/lge/x5/proprietary/etc/firmware/dxhdcp2.b01:system/etc/firmware/dxhdcp2.b01 \
+    vendor/lge/x5/proprietary/etc/firmware/dxhdcp2.b02:system/etc/firmware/dxhdcp2.b02 \
+    vendor/lge/x5/proprietary/etc/firmware/dxhdcp2.b03:system/etc/firmware/dxhdcp2.b03 \
+    vendor/lge/x5/proprietary/etc/firmware/dxhdcp2.mdt:system/etc/firmware/dxhdcp2.mdt \
     vendor/lge/x5/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
     vendor/lge/x5/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
     vendor/lge/x5/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
